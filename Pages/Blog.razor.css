@@ -1,0 +1,20 @@
+﻿.container center-card {
+    background-color: #000000;
+    font-family: Garamond, serif;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+   
+}
+#card {
+    border: 2px solid #ccc; /* Add a border */
+    border-radius: 10px; /* Add rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    
+}
+
+h3{
+    text-align : center;
+}

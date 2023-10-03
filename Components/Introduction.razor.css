@@ -1,0 +1,21 @@
+﻿.fw-bolder {
+    color: #ffffff;
+    font-family: Garamond, serif;
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 50px;
+    white-space: nowrap;
+    text-shadow: 1px 1px 4px rgba(255, 255, 255, 0.7);
+}
+.fw-normal {
+    color: #ffffff;
+    font-family: Garamond, serif;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+#jobDescription {
+    white-space: pre-line;
+}
+
+

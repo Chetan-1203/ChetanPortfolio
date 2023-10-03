@@ -1,0 +1,11 @@
+﻿h3 {
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(255, 0, 0, 0.7);
+    font-family: Garamond, serif;
+    margin-bottom: 100px;
+}
+.img-fluid {
+    width: 100px;
+    height: auto;
+}

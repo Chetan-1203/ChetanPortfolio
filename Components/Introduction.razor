@@ -1,0 +1,41 @@
+﻿
+<p class="fw-bolder">
+	Hello, My name is Chetan <span style="color:red">Badgujar</span>
+</p>
+
+<p class="fw-bolder" id="jobDescription">
+	@jobDescriptions[currentIndex]
+</p>
+<p class="fw-normal">
+	Greetings! I'm .NET Full Stack Developer, dedicated to crafting seamless web solutions.<br/>
+	With proficiency in C#, ASP.NET, and a flair for front-end technologies,<br/>
+	I specialize in creating dynamic and user-centric applications.<br />
+	My approach combines technical expertise with a passion for clean, efficient code.<br />
+	I thrive on tackling challenges and am adept at collaborating within agile teams.<br />
+	Explore my portfolio to witness my commitment to delivering innovative and impactful web experiences.<br />
+	<br />
+	Feel free to customize this introduction to align with your experiences and personal style.
+</p>
+
+@code {
+	private string[] jobDescriptions = new string[]
+			{
+		"I'm a full stack developer with expertise in various technologies.",
+		"I'm passionate about creating user-friendly web apps.",
+		"I'm experienced in both front-end and back-end development.",
+		"I enjoy tackling complex problems and finding innovative solutions."
+	};
+	private int currentIndex = 0;
+
+	protected override async Task OnInitializedAsync()
+	{
+		while (true)
+		{
+			currentIndex = (currentIndex + 1) % jobDescriptions.Length;
+			StateHasChanged();
+			await Task.Delay(2000); // Delay for 3 seconds
+		}
+	}
+
+	
+}
