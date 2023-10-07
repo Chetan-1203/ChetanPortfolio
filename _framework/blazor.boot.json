@@ -7,7 +7,7 @@
   "linkerEnabled": true,
   "resources": {
     "assembly": {
-      "ChetanPortfolio.dll": "sha256-DIhlcsX9i+qIjRG3usmG7tMmqrp0jZUFsmZrxEH18t0=",
+      "ChetanPortfolio.dll": "sha256-nOAS6ASau58y+Dq6u7Fb5Mq1X6OvFAxFXHXRw4SYtLU=",
       "Microsoft.AspNetCore.Components.dll": "sha256-ovfUP2uHrOVvuHasunC9hXXO2bIbFQoRU\/RVx1wMiIE=",
       "Microsoft.AspNetCore.Components.Web.dll": "sha256-KpQ8iAohp3+MS0QlRVXqHqS2Wk9aC00yyZUHmjPL5X4=",
       "Microsoft.AspNetCore.Components.WebAssembly.dll": "sha256-ueQ5xvBNU1qv\/\/cfI2UalqBWY\/r1CqBFjivn2Dks+Ho=",
