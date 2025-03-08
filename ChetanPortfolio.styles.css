@@ -70,9 +70,9 @@ h3[b-unbgdd091i] {
    
 }
 #card[b-y3cgspctpa] {
-    border: 2px solid #ccc; /* Add a border */
-    border-radius: 10px; /* Add rounded corners */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    border: 2px solid #ccc; 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
     
 }
 
@@ -96,6 +96,25 @@ img[b-n8s77mfq06]{
     margin-left: 100px;
     height: auto;
     width: 1500px;
+}
+/* /Pages/Projects.razor.rz.scp.css */
+.container center-card[b-hwq2rngvub] {
+    background-color: #000000;
+    font-family: Garamond, serif;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#card[b-hwq2rngvub] {
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h3[b-hwq2rngvub] {
+    text-align: center;
 }
 /* /Pages/Skills.razor.rz.scp.css */
 img[b-n3h2co3jz9]{
